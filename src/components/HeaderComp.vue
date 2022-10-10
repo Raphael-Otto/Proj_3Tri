@@ -5,9 +5,12 @@
     </div>
     <div class="Header-Inp">
       <input placeholder="Buscar..." type="text" />
+      <button type="submit" class="Header-Search-Btn">
+        <img src="@/assets/img/lupa.png" />
+      </button>
     </div>
-    <div class="user">
-      <img src="" alt="">
+    <div class="Header-Icon">
+      <img src="@/assets/img/Icon.png" />
     </div>
   </header>
 </template>
@@ -31,7 +34,7 @@ header {
 }
 
 .Header-Inp {
-  margin-left: 400px; 
+  margin-left: 29%; 
 }
 
 .Header-Inp input{
@@ -41,7 +44,26 @@ header {
   width: 300px;
   padding-left: 15px;
   border-radius: 14px;
+  border-style: none;
+  outline: none;
   border: none;
+}
+
+.Header-Search-Btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -35px;
+}
+
+.Header-Search-Btn:focus {
+  outline: 0;
+}
+
+.Header-Search-Btn img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
 }
 
 .Header-Inp ::placeholder{
@@ -49,5 +71,16 @@ header {
   position: absolute;
   padding-top: 3.5px;
   font-size: 15px;
+}
+
+.Header-Icon {
+  text-align: right;
+  padding: 30px;
+  align-items: end;
+  margin: 0px 0px 0px auto;
+}
+
+.Header-Icon img {
+  width: 60px;
 }
 </style>

@@ -38,6 +38,8 @@
       <div class="quadra"></div>
       <div class="quadra"></div>
       <div class="quadra"></div>
+      <div class="quadra"></div>
+      <div class="quadra"></div>
       <div class="quadra-ult"></div>
     </div>
   </div>
