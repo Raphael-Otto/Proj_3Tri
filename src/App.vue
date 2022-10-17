@@ -1,14 +1,13 @@
 <script setup>
 import HeaderComp from "@/components/HeaderComp.vue";
-import FilmesViews from "@/views/FilmesViews.vue";
+
 </script>
 
 <template>
+  
   <HeaderComp />
-  <main>
-    <FilmesViews />
-    <RouterView />
-  </main>
+  <RouterView />
+
 </template>
 
 <style>

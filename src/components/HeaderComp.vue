@@ -1,7 +1,9 @@
 <template>
   <header>
     <div>
-      <h1 class="Header-Tit">Prototipo Filmes</h1>
+      <RouterLink to="/"  style="text-decoration: none;">
+        <h1 class="Header-Tit">Prototipo Filmes</h1>
+      </RouterLink>
     </div>
     <div class="Header-Inp">
       <input placeholder="Buscar..." type="text" />
@@ -31,6 +33,10 @@ header {
   margin-left: 30px;
   margin-top: 5px;
   margin-bottom: 0px;
+}
+
+.Header-Tit:hover{
+  color: white;
 }
 
 .Header-Inp {
