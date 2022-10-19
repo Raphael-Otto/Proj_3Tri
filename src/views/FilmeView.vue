@@ -30,7 +30,6 @@
 }
 /*--------------------------------------------------*/
 .img-esq {
-  margin-top: 20px;
   background-color: rgb(148, 71, 71);
   height: 700px;
   width: 1300px;

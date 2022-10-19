@@ -9,7 +9,7 @@
         <div class="carousel-item active">
           <img
             class="d-block w-100"
-            src="@/assets/img/yola.jpg"
+            src="@/assets/img/JokerBannerRESGrad.png"
             alt="First slide"
           />
         </div>
@@ -40,6 +40,26 @@
       <div class="quadra"></div>
       <div class="quadra"></div>
       <div class="quadra"></div>
+      <div class="quadra-ult"></div>
+    </div>
+  </div>
+  <div>
+    <h2>Melhores na categoria Romance</h2>
+    <div class="quadras">
+      <div class="quadra-prin"></div>
+      <div class="quadra"></div>
+      <div class="quadra"></div>
+      <div class="quadra"></div>
+      <div class="quadra"></div>
+      <div class="quadra-ult"></div>
+    </div>
+  </div>
+  <div>
+    <h2>Melhores na categoria Terror</h2>
+    <div class="quadras">
+      <div class="quadra-prin"></div>
+      <div class="quadra"></div>
+      <div class="quadra"></div>
       <div class="quadra"></div>
       <div class="quadra"></div>
       <div class="quadra-ult"></div>
@@ -51,7 +71,7 @@
 h2{
   color: rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 30px;
 }
 
