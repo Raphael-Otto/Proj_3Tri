@@ -1,18 +1,16 @@
 <template>
   <header>
-    <div>
-      <RouterLink to="/"  style="text-decoration: none;">
-        <h1 class="Header-Tit">Prototipo Filmes</h1>
-      </RouterLink>
-    </div>
+    <RouterLink to="/" style="text-decoration: none;">
+      <a class="Header-Tit">Prototipo Filmes</a>
+    </RouterLink>
+
     <div class="Header-Inp">
       <input placeholder="Buscar..." type="text" />
-      <button type="submit" class="Header-Search-Btn">
-        <img src="@/assets/img/lupa.png" />
-      </button>
-    </div>
-    <div class="Header-Icon">
-      <img src="@/assets/img/Icon.png" />
+        <button type="submit" class="Header-Search-Btn">
+          <img src="@/assets/img/lupa.png" />
+        </button>
+
+      <img class="Header-Icon" src="@/assets/img/Icon.png" />
     </div>
   </header>
 </template>
@@ -20,27 +18,38 @@
 <style>
 header {
   background-color: black;
-  height: 12%;
-  font-size: 1.3rem;
-  display: flex;
-  color:white;
-  align-items: center;
-  font-family: "EB Garamond";
+  overflow: hidden;
 }
 
-.Header-Tit{
+header a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
   font-family: 'Bebas Neue', cursive;
-  margin-left: 30px;
-  margin-top: 5px;
-  margin-bottom: 0px;
 }
 
-.Header-Tit:hover{
+header a.Header-Tit{
+  font-size: 40px;
+}
+
+header a:hover{
   color: white;
 }
 
-.Header-Inp {
-  margin-left: 29%; 
+/*****************************************************************/
+.Header-Inp{
+  float: right;
+  align-items: center;
+  padding: 23px 30px;
+}
+
+.Header-Inp img{
+  width: 45px;
+  padding-bottom: 5px;
 }
 
 .Header-Inp input{
@@ -68,8 +77,9 @@ header {
 
 .Header-Search-Btn img {
   width: 20px;
-  height: 20px;
+  height: 2 0px;
   object-fit: cover;
+  margin-right: 30px;
 }
 
 .Header-Inp ::placeholder{
@@ -79,14 +89,4 @@ header {
   font-size: 15px;
 }
 
-.Header-Icon {
-  text-align: right;
-  padding: 30px;
-  align-items: end;
-  margin: 0px 0px 0px auto;
-}
-
-.Header-Icon img {
-  width: 60px;
-}
 </style>
