@@ -10,7 +10,7 @@
           <img src="@/assets/img/lupa.png" />
         </button>
 
-      <img class="Header-Icon" src="@/assets/img/Icon.png" />
+      <RouterLink class="Header-Icon" to="/perfil_usuario"> <img src="@/assets/img/Icon.png" /> </RouterLink>
     </div>
   </header>
 </template>
@@ -65,6 +65,7 @@ header a:hover{
 }
 
 .Header-Search-Btn {
+  margin-top: 17px;
   background: transparent;
   border: none;
   outline: none;
@@ -87,6 +88,10 @@ header a:hover{
   position: absolute;
   padding-top: 3.5px;
   font-size: 15px;
+}
+
+.Header-Icon{
+  float: right;
 }
 
 </style>

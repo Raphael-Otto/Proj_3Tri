@@ -9,21 +9,21 @@
         <div class="carousel-item active">
           <img
             class="d-block w-100"
-            src="@/assets/img/JokerBannerRESGrad.png"
+            src="@/assets/img/JokerBannerShadows.jpg"
             alt="First slide"
           />
         </div>
         <div class="carousel-item">
           <img
             class="d-block w-100"
-            src="@/assets/img/dark.jpg"
+            src="@/assets/img/DarkKnightShadows.jpg"
             alt="Second slide"
           />
         </div>
         <div class="carousel-item">
           <img
             class="d-block w-100"
-            src="@/assets/img/jogos.jpg"
+            src="@/assets/img/MortalKombatShadows.jpg"
             alt="Third slide"
           />
         </div>
@@ -31,10 +31,10 @@
     </div>
   </div>
   <div>
-    <h2>Mais Assistidos do Brasil</h2>
+    <h2 class="Mais_Assis">Mais Assistidos do Brasil</h2>
     <div class="quadras">
-      <div>
-        <router-link to="/Filme"><img class="quadra-prin" src="@/assets/img_baixo/aladin.jpg" alt=""></router-link>
+      <div class="Aladdin_Pos">
+        <router-link to="/filme_aladdin"><img class="quadra-prin" src="@/assets/img_baixo/aladin.jpg" alt=""></router-link>
       </div>
       <div class="quadra"></div>
       <div class="quadra"></div>
@@ -44,7 +44,7 @@
     </div>
   </div>
   <div>
-    <h2>Melhores na categoria Romance</h2>
+    <h2 class="Mais_Assis">Melhores na categoria Romance</h2>
     <div class="quadras">
       <div class="quadra-prin"></div>
       <div class="quadra"></div>
@@ -55,7 +55,7 @@
     </div>
   </div>
   <div>
-    <h2>Melhores na categoria Terror</h2>
+    <h2 class="Mais_Assis">Melhores na categoria Terror</h2>
     <div class="quadras">
       <div class="quadra-prin"></div>
       <div class="quadra"></div>
@@ -68,7 +68,8 @@
 </template>
 
 <style>
-h2{
+
+.Mais_Assis{
   color: rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
   margin-top: 40px;
