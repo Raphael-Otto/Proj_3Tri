@@ -29,6 +29,12 @@
             <div class="img-dir">
                 <div class="dentro-img"></div>
             </div>
+            <div class="img-dir">
+                <div class="dentro-img"></div>
+            </div>
+            <div class="img-dir">
+                <div class="dentro-img"></div>
+            </div>
         </div>
     </div>
 </template>

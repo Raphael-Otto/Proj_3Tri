@@ -1,5 +1,5 @@
 <template>
-    <h1>Cavalo</h1>
+    <h1>Página de login</h1>
 
 
 
