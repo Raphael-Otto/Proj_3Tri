@@ -48,7 +48,7 @@
 /*--------------------------------------------------*/
 .Img_Filme {
   background-color: rgb(219, 170, 170);
-  height: auto;
+  height: 70vh;
   width: auto;
 }
 

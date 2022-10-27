@@ -81,8 +81,8 @@
 
 .Movie_Single{
   background-color: #171C28;
-  height: 375px;
-  width: 275px;
+  height: 42.5vh;
+  width: 29.5vh;
   margin-left: 4.5vh;
 }
 
