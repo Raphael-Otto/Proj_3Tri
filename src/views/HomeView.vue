@@ -1,3 +1,13 @@
+<script>
+import BestRomanceComp from "../components/BestRomanceComp.vue";
+import MaisAssistidosComp from"../components/MaisAssistidosComp.vue";
+export default {
+  components: {
+    MaisAssistidosComp,
+    BestRomanceComp
+}
+}
+</script>
 <template>
   <div class="carousel">
     <div
@@ -30,30 +40,8 @@
       </div>
     </div>
   </div>
-  <div>
-    <h2 class="Mais_Assis">Mais Assistidos do Brasil</h2>
-    <div class="quadras">
-      <div class="Aladdin_Pos">
-        <router-link to="/filme_aladdin"><img class="quadra-prin" src="@/assets/img_baixo/aladin.jpg" alt=""></router-link>
-      </div>
-      <div class="quadra"></div>
-      <div class="quadra"></div>
-      <div class="quadra"></div>
-      <div class="quadra"></div>
-      <div class="quadra-ult"></div>
-    </div>
-  </div>
-  <div>
-    <h2 class="Mais_Assis">Melhores na categoria Romance</h2>
-    <div class="quadras">
-      <div class="quadra-prin"></div>
-      <div class="quadra"></div>
-      <div class="quadra"></div>
-      <div class="quadra"></div>
-      <div class="quadra"></div>
-      <div class="quadra-ult"></div>
-    </div>
-  </div>
+  <MaisAssistidosComp />
+  <BestRomanceComp />
   <div>
     <h2 class="Mais_Assis">Melhores na categoria Terror</h2>
     <div class="quadras">

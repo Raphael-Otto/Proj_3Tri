@@ -1,7 +1,7 @@
 <template>
   <header>
     <RouterLink to="/" style="text-decoration: none;">
-      <a class="Header-Tit">Prototipo Filmes</a>
+      <a class="Header-Tit">MOVIEFLIX</a>
     </RouterLink>
 
     <div class="Header-Inp">
