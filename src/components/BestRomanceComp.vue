@@ -31,8 +31,8 @@ export default {
         <h3 class="PoEmh3">Melhores Filmes de Romance</h3>
         <div class="filmes-linhas">
           <CardFilmesSection3
-            v-for="filme of filmes"
-            :key="filme.id"
+            v-for="filme of filmesgeners"
+            :key="geners.id"
             :link_filme="filme"
             :poster="getPosterUrl(filme.poster_path)"
             :nome_fsa="filme.title"

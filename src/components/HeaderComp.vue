@@ -1,9 +1,11 @@
 <template>
   <header>
     <RouterLink to="/" style="text-decoration: none;">
-      <a class="Header-Tit">MOVIEFLIX</a>
+      <a class="Header-Tit">Prototipo Filmes</a>
+      <p class="Series-Tit">Séries</p>
+      <p class="Filmes-Tit">Filmes</p>
+      <p class="Atores-Tit">Atores</p>
     </RouterLink>
-
     <div class="Header-Inp">
       <input placeholder="Buscar..." type="text" />
         <button type="submit" class="Header-Search-Btn">
@@ -16,6 +18,12 @@
 </template>
 
 <style>
+
+.tudo-s {
+  display: flex;
+  margin-top: 20px;
+}
+
 header {
   background-color: black;
   overflow: hidden;
@@ -38,6 +46,36 @@ header a.Header-Tit{
 
 header a:hover{
   color: white;
+}
+
+header p.Series-Tit{
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 20px 64px 0px 400px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+header p.Filmes-Tit{
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 20px 64px 0px 32px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+header p.Atores-Tit{
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 20px 64px 0px 32px;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 /*****************************************************************/
@@ -65,7 +103,7 @@ header a:hover{
 }
 
 .Header-Search-Btn {
-  margin-top: 17px;
+  margin-top: 15px;
   background: transparent;
   border: none;
   outline: none;

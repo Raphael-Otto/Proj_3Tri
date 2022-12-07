@@ -32,7 +32,7 @@ export default class FilmeApi {
   }
   async BuscarFilmesPorGenero(genero) {
     const response = await axios.get(
-      `https://api.themoviedb.org/3/movie/popular?api_key=c4aecfa4b10ef5cc747dcad83dcdc9b2&language=pt-BR&page=1&with_genres=${genero}`
+      `https://api.themoviedb.org/3/movie/popular?api_key=c4aecfa4b10ef5cc747dcad83dcdc9b2&language=pt-BR&page=1&with_genres=${romance}`
     );
     return response.data.results;
   }
